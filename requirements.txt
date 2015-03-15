@@ -1,1 +1,4 @@
 Django==1.7.6
+Pillow==2.7.0
+django-google-maps==0.2.3
+mock==1.0.1

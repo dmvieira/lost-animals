@@ -1,6 +1,6 @@
+<script src="{{ STATIC_URL }}admin/js/jquery.min.js"></script>
 <form action="" method='post'>
-            {% for field in form %}
-                    {{ field.label_tag }} {{ field }}
-            {% endfor %}
+    {% csrf_token %}
+    {{ form.as_table }}
     <input type='submit' >
 </form>

@@ -22,7 +22,11 @@ SECRET_KEY = 'ul!uc(_bz_fe=u2$k1^di#*dr3+-&gxwagi%-_@i2d&a09eo#d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Templetes path debug
+
 TEMPLATE_DEBUG = True
+
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 ALLOWED_HOSTS = []
 
